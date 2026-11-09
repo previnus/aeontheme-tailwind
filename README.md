@@ -6,7 +6,7 @@ Aeon Theme Tailwind is a classic WordPress theme for business websites and blogs
 
 ## 1. Install the theme
 
-The theme requires WordPress 6.6 or later and PHP 7.4 or later. The release ZIP includes the compiled stylesheet and is ready to install directly in WordPress. Standard pages, posts, and archives work with WordPress alone. Add ACF PRO to use **Page Sections** and **Aeon Theme Options**.
+The theme requires WordPress 6.6 or later and PHP 8.2 or later. The release ZIP includes the compiled stylesheet and is ready to install directly in WordPress. Standard pages, posts, and archives work with WordPress alone. Add ACF PRO to use **Page Sections** and **Aeon Theme Options**.
 
 1. Download `aeontheme-tailwind.zip` from the link above.
 2. Sign in to WordPress as an administrator. Go to **Appearance → Themes → Add New → Upload Theme**.
@@ -90,7 +90,7 @@ WordPress stores these overrides separately from the theme files. Keep the same 
 
 ## Update or move an existing Aeon site
 
-Back up the site and test the new ZIP on a staging copy before switching. Keep existing ACF field groups in place. Aeon recognizes the existing `page_builder` field, page template filenames, and global settings storage. After switching, review menu locations, logos, form shortcodes, and links. If the theme folder name changed, transfer your Additional CSS from the previous theme.
+Before updating to version 2.0.0, confirm that your site runs PHP 8.2 or later. Back up the site and test the new ZIP on a staging copy before switching. Keep existing ACF field groups in place. Aeon recognizes the existing `page_builder` field, page template filenames, and global settings storage. After switching, review menu locations, logos, form shortcodes, and links. If the theme folder name changed, transfer your Additional CSS from the previous theme.
 
 ## Rebuild Tailwind CSS for development
 
